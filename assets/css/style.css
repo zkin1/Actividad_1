@@ -17,22 +17,43 @@
     margin-bottom: 10px;
 }
 
-.seccion_lista {
+.seccion-lista {
     list-style-type: none;
     padding: 0;
 }
 
-.member-item {
+.miembro {
     margin-bottom: 5px;
 }
 
-.seccion_ayuda {
-    display: flex;
+.seccion-ayuda {
     align-items: center;
     justify-content: center;
 }
 
-.help-link {
-    text-decoration: none;
-    color: blue;
+.Link1, .Link3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.link2, .link4 {
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.img-item{
+    margin-right: 10px;
+}
+
+.img-item img{
+    width: 100px;
+    height: auto;
+    margin-right: px;
+
+
+}
+.link-volver{
+    position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
 }
