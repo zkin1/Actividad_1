@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/mascotasStyle.css">
     <title>Gatos en Adopción</title>
 </head>
 <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="adopta.html">Adopta</a></li>
+        </ul>
+    </nav>
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">ONG - AYUDA A UN PELUDO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="container">
+        <div class="cabeza">
+          <div class="titulo">Esta es una página de adopción para perros y gatos.</div>
+        </div>
+    
     <div class="container">
         <div class="cabeza">
             <div>ONG - AYUDA A UN PELUDO</div>
@@ -15,23 +50,43 @@
         
         <div class="seccion-gatos">
             <h1 class="section-title"><b>Nuestros perros que buscan familia:</b></h1>
-            <div class="container1">
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card">
                 <img src="./assets/img/cala.png" alt="cala" width="200px">
-                <p class="ola"><a href="cala.html">Cala</a></p>
-            </div>
-            <div class="container1">
-                <img src="./assets/img/tilin.jpg" alt="tilin" width="200px">
-                <p class="ola"><a href="tilin.html">Tilin</a></p>
-            </div>
-            <div class="container1">
-                <img src="./assets/img/susy.jpg" alt="susy" width="200px">
-                <p class="ola"><a href="susy.html">Susy</a></p>
-            </div>
-        </div>
+                <div class="card-body">
+                    <h5 class="card-title">Cala</h5>
+                    <p class="card-text">Información adicional sobre Cala.</p>
+                    <a href="cala.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/img/tilin.jpg" alt="susy" width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Tilin</h5>
+                        <p class="card-text">Información adicional sobre Tilin.</p>
+                        <a href="tilin.html" class="btn btn-primary">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/susy.jpg" alt="susy" width="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">susy</h5>
+                            <p class="card-text">Información adicional sobre susy.</p>
+                            <a href="susy.html" class="btn btn-primary">Ver más</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
         <div class="link-volver">
             <a href="index.html">Volver a la página principal</a>
         </div>
     </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
