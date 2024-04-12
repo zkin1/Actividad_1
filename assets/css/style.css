@@ -155,3 +155,38 @@ nav {
 .menu li a:hover {
     background-color: #272624;
 }
+.presentation {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.right-column {
+    padding: 20px;
+}
+
+.presentation h1 {
+    font-size: 24px;
+}
+
+.presentation .text {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.presentacion-titulo {
+    font-family: Arial, sans-serif; 
+    font-size: 40px; 
+    font-weight: bold; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+}
+.index-titulo{
+    font-size: 30px;
+}
