@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Estilos de la cabecera */
+
   .cabeza {
     text-align: center;
     margin-bottom: 40px;
@@ -18,7 +18,7 @@
     margin-bottom: 10px;
   }
   
-  /* Estilos de la sección de gatos */
+
   .seccion-gatos {
     margin-bottom: 40px;
   }
@@ -26,44 +26,70 @@
   .section-title {
     text-align: center;
   }
-  
-  /* Estilos de las tarjetas */
+
   .card {
     margin-bottom: 20px;
     display: flex;
     height: 100%;
   }
   
+  .card1{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    background-color: #7FB3D5; 
+    text-align: center;
+    padding: 80px;
+    right: 450px;
+    bottom: 700px;
+    position: relative;
+  }
+  
+  .circle-card .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+.card2{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    background-color: #7FB3D5; 
+    text-align: center;
+    padding: 80px;
+    left: 850px;
+    bottom: 1050px;
+    position: relative;
+}
   .card-img-top {
     flex: 1;
     height: auto;
   }
   .img-grande {
-    width: 100%; /* Ancho del 100% para que se ajuste al contenedor */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 100%; 
+    height: auto; 
   }
   .card-body {
     text-align: center;
     flex: 1;
   }
   
-  /* Estilos del enlace de vuelta */
   .link-volver {
     position: absolute;
     top: 10px;
     right: 10px;
     padding: 10px;  }
 .nav {
-    background-color: #C8C7C8; /* Color de fondo del menú */
-    padding: 10px 0; /* Espaciado interno */
+    background-color: #C8C7C8; 
+    padding: 10px 0; 
 }  
 .menu {
-    list-style-type: none; /* Quita los puntos de lista */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
-    text-align: center; /* Centra los elementos */
+    text-align: center; 
 }
-  /* Estilos del menú de navegación */
+
   .navbar {
     background-color: #2E86C1;
     padding: 10px 0;
@@ -82,6 +108,6 @@
   }
 
   .menu li {
-    display: inline; /* Muestra los elementos en línea */
-    margin-right: 20px; /* Espacio entre los elementos del menú */
+    display: inline; 
+    margin-right: 20px; 
 }
