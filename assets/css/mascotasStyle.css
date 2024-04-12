@@ -30,15 +30,21 @@
   /* Estilos de las tarjetas */
   .card {
     margin-bottom: 20px;
+    display: flex;
+    height: 100%;
   }
   
   .card-img-top {
-    max-height: 200px;
-    object-fit: cover;
+    flex: 1;
+    height: auto;
   }
-  
+  .img-grande {
+    width: 100%; /* Ancho del 100% para que se ajuste al contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
   .card-body {
     text-align: center;
+    flex: 1;
   }
   
   /* Estilos del enlace de vuelta */
