@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/mascotasStyle.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <div class="index-titulo">
         <title><b>Garra y patada</b></title>
     </div>
-    
 </head>
 <body>
     <nav>
@@ -19,38 +18,39 @@
             <li><a href="adopta.html">Adopta</a></li>
         </ul>
     </nav>
-    
     <div class="container">
         <div class="cabeza">
             <div><h1><b>Garra y patada</b></h1></div>
             <div>Esta es una página de adopción para perros y gatos.</div>
         </div>
-        <div class="carousel">
-            <img id="carousel-image" src="" alt="Carousel Image">
-            <button id="prev-button" class="carousel-button"><</button>
-            <button id="next-button" class="carousel-button">></button>
+        <div class="carousel-container">
+            <div class="carousel">
+                <img id="carousel-image" src="" alt="Carousel Image">
+                <button id="prev-button" class="carousel-button"><</button>
+                <button id="next-button" class="carousel-button">></button>
+            </div>
         </div>
-        <div class="carta1">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card1">
-                        <h2 class="card-title">Elige adoptar</h2>
-                        <img src="./assets/img/romanito.jpg" alt="romanito" class="card-img-top1">
-                        <div class="card-text">
-                            <p>"¿Por qué comprar cuando puedes salvar una vida? ¡Adopta! Los refugios están llenos de amigos peludos esperando por ti.</p>
-                            <p>No solo estás obteniendo un compañero leal, ¡estás cambiando su vida para siempre!"</p>
-                        </div>
+        <div class="row card-container">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./assets/img/cala.png" alt="cala" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Elige adoptar</h5>
+                        <p class="card-text">¿Por qué comprar cuando puedes salvar una vida? ¡Adopta! Los refugios están llenos de amigos peludos esperando por ti.</p>
                         <a href="adopta.html" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        
-        <div class="card">
-            <h2 class="card-title">Conocenos</h2>
-            <p class="card-text">Información adicional sobre nosotros.</p>
-            <a href="nosotros.html" class="btn btn-primary">Ver más</a>
+            <div class="col-md-3 card-right">
+                <div class="card">
+                    <img src="./assets/img/romanito.jpg" alt="romanito" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Conocenos</h5>
+                        <p class="card-text">Información adicional sobre nosotros.</p>
+                        <a href="nosotros.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="./assets/js/java.js"></script>
     </div>
@@ -61,5 +61,3 @@
     </footer>
 </body>
 </html>
-
-

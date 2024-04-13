@@ -73,6 +73,9 @@
     text-align: center;
     flex: 1;
   }
+  .card-right {
+    margin-left: auto;
+}
   
   .link-volver {
     position: absolute;
